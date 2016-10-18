@@ -1,0 +1,126 @@
+body{
+  background-color: lightblue;
+}
+
+#nav{
+  margin:0 auto;
+}
+
+nav{
+  margin-top: 1.4em;
+  display:table;
+  width:100%;
+  height:1.4em;
+  border:none;
+}
+
+nav ul{
+  display:table-row;
+}
+
+nav li{
+  display:table-cell;
+  margin:0;
+  text-align:center;
+}
+
+nav li a{
+  display:block;
+  padding:1em;
+  text-decoration:none;
+  font-weight:bolder;
+  font-family: 'Yatra One', cursive;
+  font-size:3em;
+  color:#000;
+
+}
+
+nav li a:hover{
+  background-color:lightyellow;
+  /*display:block;*/
+  border-radius:100%; /*gives shape to hovering bubble (allows us to shape div or element)*/
+}
+
+.content{
+  width: 100%;
+  height: auto;
+}
+
+#container{
+  width:80%;
+  height:auto;
+  margin:0 auto;
+
+}
+
+.top1, .top2, .top3, .top4{
+  width:200px;
+  height:200px;
+  float:left;
+  margin:3%;
+}
+
+.one {
+  width: 200px;
+  height: 200px;
+  float: left;
+background-color: lightyellow;
+  margin-left: 30%
+}
+
+.two {
+  width: 200px;
+  height: 200px;
+  float: left;
+background-color: blue;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.three {
+  width: 200px;
+  height: 200px;
+  float: left;
+  background-color: lightgrey;
+
+}
+
+.picture1, .picture2, .picture3 {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-left: 30%;
+  margin-top: 5px;
+
+}
+
+.picture2, .picture3 {
+  margin-left: 10px;
+}
+
+span {
+  color: red;
+}
+
+/*.picture1{
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-left: 30%;
+}
+.picture2,.picture3{
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 0px;
+}
+*/
+
+}
+
+
+
+h3 {
+  text-align: center;
+}
